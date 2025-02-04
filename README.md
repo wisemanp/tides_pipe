@@ -19,7 +19,7 @@ The Tides Pipeline is a modular data processing pipeline designed to handle the 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/tides_pipeline.git
+    git clone https://github.com/wisemanp/tides_pipeline.git
     cd tides_pipeline
     ```
 
@@ -30,9 +30,9 @@ The Tides Pipeline is a modular data processing pipeline designed to handle the 
 
 ## Configuration
 
-The pipeline is configured using a YAML file. The default configuration file is located at [config/config.yml](http://_vscodecontentref_/0). You can specify a different configuration file using the `--config` argument when running the pipeline.
+The pipeline is configured using a YAML file. The default configuration file is located at config/config.yml. You can specify a different configuration file using the `--config` argument when running the pipeline.
 
-Example configuration ([config/config.yml](http://_vscodecontentref_/1)):
+Example configuration:
 ```yaml
 base_dir: "/path/to/base"
 deliveries_dir: "/path/to/base/deliveries"
